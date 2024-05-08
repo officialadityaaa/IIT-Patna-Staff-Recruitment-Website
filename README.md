@@ -1,68 +1,76 @@
-# DATABASE Project 
-  <p>This is IIT PATNA Staff Recruitment Website.We have dockerize this web application </p>
 
+# DATABASE Project 
+This is IIT Patna Staff Recruitment Website.We have dockerize this web application
+
+
+
+
+
+
+## Authors
+
+- [@AdityaBoudh](https://github.com/officialadityaaa)
+- [@MayurBorse](https://github.com/mayurborse4422)
 ## Used Technologies :
  
 - <img src="https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png" width="25" height="25"/>   NODE JS (EXPRESS)
 
 - <img src="https://cdn.worldvectorlogo.com/logos/mysql-4.svg" width="25" height="25"/>    MYSQL DB
  
-- <img src="https://cdn.worldvectorlogo.com/logos/docker-4.svg" width="25" height="25"/>        Docker compose
+- <img src="https://cdn.worldvectorlogo.com/logos/docker-4.svg" width="25" height="25"/> 
+
+## Frontend UI:
+
+
+
+
+![App Screenshot](https://ibb.co/86zjM8M)
+
 
   
+
+
+## Installation
+
+ Make sure the docker is installed in you machine and also run the docker engine.
+
+```bash
+    docker -v
+```
+    
+
+![ensure to run the the engine](https://github.com/ahmedG3far44/cloud-final-project-dockerize-web-application/assets/96004565/9387fcdb-6851-4859-8b5c-231db5febbf9")
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+##Screenshots
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+## Tech Stack
+
+**Client:** React, Redux, TailwindCSS
+
+**Server:** Node, Express
+
+
+![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+
+#deployment
+
+## Authors
+
+- [@AdityaBoudh](https://github.com/officialadityaaa)
+- [@MayurBorse](https://github.com/mayurborse4422)
+## Used Technologies :
+ 
+- <img src="https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png" width="25" height="25"/>   NODE JS (EXPRESS)
+
+- <img src="https://cdn.worldvectorlogo.com/logos/mysql-4.svg" width="25" height="25"/>    MYSQL DB
+ 
+- <img src="https://cdn.worldvectorlogo.com/logos/docker-4.svg" width="25" height="25"/> 
 
 ## Frontend UI:
 
 
   <img src="https://ibb.co/86zjM8M" width="800" alt="" />
 
-
-
-## To run the application follow the instructions below:
-
-### Make sure the docker is installed in you machine
-    
-  ```
-  docker -v
-  ```
-
-  
-## Before you start run the docker desktop engine:
-  
-  <img src="https://github.com/ahmedG3far44/cloud-final-project-dockerize-web-application/assets/96004565/9387fcdb-6851-4859-8b5c-231db5febbf9" width="800" alt="" />
-
-
-  ```
-[DockerHub Image Repo](https://hub.docker.com/r/adityaboudh/iit-patna-recruit)
-assure you have login through docker desktop..
-
-### 1- To build the server containers : run on the terminal 
-  ```
-  docker pull adityaboudh/iit-patna-recruit
-  ```
-
-
-<img src="https://ibb.co/WyCqF5t" width="800" alt="" />
-         
-     we have to just run the image on the port 8000
-#### 2- Image Will Be Pull on your Desktop 
-  ```
- We have Run that Image on Host :8000
-  ```
-
-<img src="https://ibb.co/NZZBNPZ" alt="" />
-
-#### Example logs of successful database connections:
-
-  <img src="https://ibb.co/qgswsY9" alt="" />
-  
-```
-  server will be running on this http://localhost:8000
-  ```
-    
-### Test the backend on port 8000 :
-
-  #### Backend server working on: http://localhost:8000
-
-### We have deployed our website app in the link below:
-#### 3- Visit the app link: [https://iitpfacultyrecruitment.onrender.com](https://iitpfacultyrecruitment.onrender.com)
