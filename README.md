@@ -54,12 +54,6 @@ Just copy the pull command and run on the terminal
   set host port as 8000 while creating Container;
   ```
 
-## Frontend UI:
-
-
-
-
-![App Screenshot](https://raw.githubusercontent.com/officialadityaaa/resources/main/Screenshot%20(465).png)
 
 
   
@@ -69,3 +63,9 @@ http://localhost:8000
 
 ## We have deployed our website app in the link below:
 ####  Visit the app link: [https://iitpfacultyrecruitment.onrender.com](https://iitpfacultyrecruitment.onrender.com)
+## Frontend UI:
+
+
+
+
+![App Screenshot](https://raw.githubusercontent.com/officialadityaaa/resources/main/Screenshot%20(465).png)
