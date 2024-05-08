@@ -1,0 +1,13 @@
+services:
+  nodejs:
+    build: 
+      context: .
+    image: adityaboudhmayurm
+    container_name: my-nodeop
+    ports:
+      - "8000:8000"
+    tty: true
+    stdin_open: true  
+    volumes: 
+      - .:/app
+   
