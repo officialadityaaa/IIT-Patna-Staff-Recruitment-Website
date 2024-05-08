@@ -1,5 +1,5 @@
 # DATABASE Project 
-  <p>it is out IIT PATNA Staff Recruitment Website.We  to dockerize a web application and  we have run  contianers node js web server  using docker compose.</p>
+  <p>This is IIT PATNA Staff Recruitment Website.We have dockerize this web application </p>
 
 ## Used Technologies :
  
@@ -13,7 +13,8 @@
 
 ## Frontend UI:
 
-<img src="https://ibb.co/86zjM8M" alt="" />
+
+  <img src="https://ibb.co/86zjM8M" width="800" alt="" />
 
 
 
@@ -32,19 +33,22 @@
 
 
   ```
-
-#### 1- To build the server containers : run on the terminal 
-assure you have login through docker desktop..
 [DockerHub Image Repo](https://hub.docker.com/r/adityaboudh/iit-patna-recruit)
+assure you have login through docker desktop..
 
+### 1- To build the server containers : run on the terminal 
   ```
   docker pull adityaboudh/iit-patna-recruit
   ```
 
-#### 2- Image Will Be Pull on your Desktop 
+
 <img src="https://ibb.co/WyCqF5t" width="800" alt="" />
          
      we have to just run the image on the port 8000
+#### 2- Image Will Be Pull on your Desktop 
+  ```
+ We have Run that Image on Host :8000
+  ```
 
 <img src="https://ibb.co/NZZBNPZ" alt="" />
 
