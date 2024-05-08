@@ -19,15 +19,7 @@ This is IIT Patna Staff Recruitment Website.We have dockerize this web applicati
  
 - <img src="https://cdn.worldvectorlogo.com/logos/docker-4.svg" width="25" height="25"/> 
 
-## Frontend UI:
 
-
-
-
-![App Screenshot](https://ibb.co/86zjM8M)
-
-
-  
 
 
 ## Installation
@@ -62,7 +54,15 @@ Just copy the pull command and run on the terminal
   set host port as 8000 while creating Container;
   ```
 
+## Frontend UI:
 
+
+
+
+![App Screenshot](https://raw.githubusercontent.com/officialadityaaa/resources/main/Screenshot%20(465).png)
+
+
+  
 after running.The server will start at port 8000   
 http://localhost:8000
 ![App Screenshot](https://github.com/officialadityaaa/resources/blob/main/Screenshot%20(469).png?raw=true)
