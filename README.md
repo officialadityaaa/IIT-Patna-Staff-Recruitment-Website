@@ -40,12 +40,7 @@ This is IIT Patna Staff Recruitment Website.We have dockerize this web applicati
     
 
 ![ensure to run the the engine](https://github.com/ahmedG3far44/cloud-final-project-dockerize-web-application/assets/96004565/9387fcdb-6851-4859-8b5c-231db5febbf9")
-## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-##Screenshots
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 ## Tech Stack
 
 **Client:** React, Redux, TailwindCSS
