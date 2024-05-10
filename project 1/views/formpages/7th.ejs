@@ -1,0 +1,204 @@
+<% layout("/layout/every.ejs") %>
+<body>
+    
+    <script type="text/javascript" src="https://ofa.iiti.ac.in/facrec_che_2023_july_02/ckeditor/ckeditor.js"></script>
+    
+    <style type="text/css">
+    body { padding-top:30px; }
+    .form-control { margin-bottom: 10px; }
+    .floating-box {
+        display: inline-block;
+        width: 150px;
+        height: 75px;
+        margin: 10px;
+        border: 3px solid #73AD21;  
+    }
+    </style>
+    <style type="text/css">
+    body { padding-top:30px; }
+    .form-control { margin-bottom: 10px; }
+    label{
+      padding: 0 !important;
+    }
+    hr{
+      border-top: 1px solid #025198 !important;
+      border-style: dashed!important;
+      border-width: 1.2px;
+    }
+    
+    .panel-heading{
+      font-size: 1.3em;
+      font-family: 'Oswald', sans-serif!important;
+      letter-spacing: .5px;
+    }
+    .btn-primary {
+      padding: 9px;
+    }
+    
+    .Acae_data
+    {
+      font-size: 1.1em;
+      font-weight: bold;
+      color: #414002;
+    }
+    p
+    {
+      padding-top: 10px;
+    }
+    </style>
+    
+    <a href='https://ofa.iiti.ac.in/facrec_che_2023_july_02/layout'></a>
+    
+    <div class="container">
+      
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 well">
+                
+                  
+                <fieldset>
+                 
+                     <legend>
+                      <div class="row">
+                        <div class="col-md-10">
+                            <h4>Welcome : <font color="#025198"><strong><%= firstname %>&nbsp;<%= lastname %></strong></font></h4>
+                        </div>
+                        <div class="col-md-2">
+                          <a href="/logout" class="btn btn-sm btn-success  pull-right">Logout</a>
+                        </div>
+                      </div>
+                    
+                    
+            </legend>
+      
+    <form class="form-horizontal" action="/formpages/7" method="POST">
+    <input type="hidden" value="" />
+    
+    
+    <div class="row">
+          <div class="col-md-12">
+            <div class="panel panel-success ">
+            <div class="panel-heading">14. Significant research contribution and future plans *<small class="pull-right">(not more than 500 words)</small> <br /><small>(Please provide a Research Statement describing your research plans and one or two specific research projects to be conducted at IIT Indore in 2-3 years time frame)</small></div>
+              <div class="panel-body">
+                <textarea style="height:150px" placeholder="Significant research contribution and future plans" class="form-control input-md" name="research_statement" maxlength="3500" required><%= page_7[1] %></textarea>
+    
+              <script>
+                  CKEDITOR.replace('research_statement');
+              </script>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-md-12">
+          <div class="panel panel-success ">
+          <div class="panel-heading">15. Significant teaching contribution and future plans * <small>(Please list UG/PG courses that you would like to develop and/or teach at IIT Indore)</small> <small class="pull-right"> (not more than 500 words)</small></div>
+            <div class="panel-body">
+              <textarea style="height:150px" placeholder="Significant teaching contribution and future plans" class="form-control input-md" name="teaching_statement" maxlength="3500" required><%= page_7[2] %></textarea>
+    
+             <script>
+                 CKEDITOR.replace('teaching_statement');
+             </script>
+          </div>
+        </div>
+        </div>
+    
+    <div class="col-md-12">
+          <div class="panel panel-success ">
+          <div class="panel-heading">16. Any other relevant information. <small class="pull-right">(not more than 500 words)</small></div>
+            <div class="panel-body">
+              <textarea style="height:150px" placeholder="Any other relevant information you may like to furnish" class="form-control input-md" name="rel_in" maxlength="3500" required><%= page_7[3] %></textarea>
+    
+             <script>
+                 CKEDITOR.replace('rel_in');
+                 
+             </script>
+          </div>
+        </div>
+        </div>
+    
+        <div class="col-md-12">
+              <div class="panel panel-success ">
+              <div class="panel-heading">17. Professional Service : Editorship/Reviewership <small class="pull-right">(not more than 500 words)</small></div>
+                <div class="panel-body">
+                  <textarea style="height:150px" placeholder="Professional Service as Reviewer/Editor etc" class="form-control input-md" name="prof_serv" maxlength="3500" required><%= page_7[4] %></textarea>
+    
+                  <script>
+                      CKEDITOR.replace('prof_serv');
+    
+                   
+    
+                      
+                  </script>
+                
+              </div>
+            </div>
+            </div>
+    
+    <div class="col-md-12">
+      <div class="panel panel-success ">
+      <div class="panel-heading">18. Detailed List of Journal Publications <br />(Including Sr. No., Author's Names, Paper Title, Volume, Issue, Year, Page Nos., Impact Factor (if any), DOI, Status[Published/Accepted] )</div>
+        <div class="panel-body">
+    
+    
+          <textarea style="height:15px!important" placeholder="Detailed List of Journal Publications" id="jour_details" class="form-control input-md" name="jour_details" required><%= page_7[5] %></textarea>
+    
+          <script>
+              CKEDITOR.replace('jour_details');
+    
+           
+    
+              
+          </script>
+      </div>
+    </div>
+    </div>
+    
+    
+    <div class="col-md-12">
+      <div class="panel panel-success ">
+      <div class="panel-heading">19. Detailed List of Conference Publications<br />(Including Sr. No.,  Author's Names, Paper Title, Name of the conference, Year, Page Nos., DOI [If any] )</div>
+        <div class="panel-body">
+          <textarea style="height:150px" placeholder="Detailed List of Conference Publications" id="conf_details" class="form-control input-md" name="conf_details" required><%= page_7[6] %></textarea>
+    
+          <script>
+              CKEDITOR.replace('conf_details');
+              
+          </script>
+    
+      </div>
+    </div>
+    </div>
+    
+    
+    
+     </div>      
+     
+    <div class="form-group">
+    <div class="col-md-10">
+      <a href="/formpages/6" class="btn btn-primary pull-left"><i class="glyphicon glyphicon-fast-backward"></i></a>
+    
+    
+    </div>
+    
+    <div class="col-md-2">
+    
+       <button id="submit" type="submit" name="submit" value="Submit" class="btn btn-success pull-right">SAVE & NEXT</button>
+    
+    </div>
+    
+    
+    </div>
+     
+    
+    </div> 
+                
+    
+    
+    
+    
+    </fieldset>
+    </form>
+    
+    
+    
+    <div id="footer"></div>
+    </body>
