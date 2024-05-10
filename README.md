@@ -11,6 +11,8 @@ This is IIT Patna Staff Recruitment Website.We have dockerize this web applicati
 
 - [@AdityaBoudh](https://github.com/officialadityaaa)
 - [@MayurBorse](https://github.com/mayurborse4422)
+## We have deployed our website app in the link below:
+####  Visit the app link: [https://iitpfacultyrecruitment.onrender.com](https://iitpfacultyrecruitment.onrender.com) 
 ## Used Technologies :
  
 - <img src="https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png" width="25" height="25"/>   NODE JS (EXPRESS)
@@ -61,8 +63,7 @@ after running.The server will start at port 8000
 http://localhost:8000
 ![App Screenshot](https://github.com/officialadityaaa/resources/blob/main/Screenshot%20(469).png?raw=true)
 
-## We have deployed our website app in the link below:
-####  Visit the app link: [https://iitpfacultyrecruitment.onrender.com](https://iitpfacultyrecruitment.onrender.com)
+
 ## Frontend UI:
 
 
