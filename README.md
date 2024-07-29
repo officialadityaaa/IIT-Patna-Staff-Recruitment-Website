@@ -10,7 +10,7 @@ This is IIT Patna Staff Recruitment Website.We have dockerize this web applicati
 ## Authors
 
 - [@AdityaBoudh](https://github.com/officialadityaaa)
-- [@MayurBorse](https://github.com/mayurborse4422)
+
 ## We have deployed our website app in the link below:
 ####  Visit the app link: [https://iitpfacultyrecruitment.onrender.com](https://iitpfacultyrecruitment.onrender.com) 
 ## Used Technologies :
